@@ -1,0 +1,29 @@
+body
+{
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+#game-score
+{
+    font-size: 20px;
+
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 50%;
+
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+    text-align: center;
+
+    color: #fff;
+}
